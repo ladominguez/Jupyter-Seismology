@@ -1,0 +1,7 @@
+nome: Jupyter-seismology
+channels:
+	- conda-forge
+dependencies:
+	- python =3
+	- obspy >=1.2.0
+	- cartopy >= 0.18.0
