@@ -1,0 +1,8 @@
+# GMT common arguments shelf
+-Ba10.000f10.000/a10.000f10.000NEWS:.:
+-JM6.5i
+-R-119.378/-86.936/8.240/39.076
+-X0.75i
+-Y1.0i
+-jM6.5i
+EOF

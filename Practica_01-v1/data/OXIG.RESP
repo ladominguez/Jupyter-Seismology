@@ -1,0 +1,789 @@
+#
+###################################################################################
+#STS2-gen1 Q330 100Hz Gain1
+#
+#
+#		======== CHANNEL RESPONSE DATA ========
+B050F03     Station:     OXIG  
+B050F16     Network:     IG
+B052F03     Location:    ??
+B052F04     Channel:     HHE
+B052F22     Start date:  1994,061,00:00:00
+B052F23     End date:    No Ending Time
+#		=======================================
+#               +--------------------------------------------+
+#               |   Response (Poles & Zeros), OXIG     HHE   |
+#               +--------------------------------------------+
+#
+B053F03     Transfer function type:                A [Laplace Transform (Rad/sec)]
+B053F04     Stage sequence number:                 1
+B053F05     Response in units lookup:              M/S - Velocity in Meters Per Second
+B053F06     Response out units lookup:             V - Volts
+B053F07     A0 normalization factor:               5.706240E+12
+B053F08     Normalization frequency:               1.000000E+00
+B053F09     Number of zeroes:                      5
+B053F14     Number of poles:                       9
+#		Complex zeroes:
+#		  i  real          imag          real_error    imag_error
+B053F10-13    0  0.000000e+00  0.000000e+00  0.000000E+00  0.000000E+00
+B053F10-13    1  0.000000e+00  0.000000e+00  0.000000E+00  0.000000E+00
+B053F10-13    2 -1.515000e+01  0.000000e+00  0.000000E+00  0.000000E+00
+B053F10-13    3 -3.186000e+02  4.012000e+02  0.000000E+00  0.000000E+00
+B053F10-13    4 -3.186000e+02 -4.012000e+02  0.000000E+00  0.000000E+00
+#		Complex poles:
+#		  i  real          imag          real_error    imag_error
+B053F15-18    0 -3.700000e-02 -3.700000e-02  0.000000E+00  0.000000E+00
+B053F15-18    1 -3.700000e-02  3.700000e-02  0.000000E+00  0.000000E+00
+B053F15-18    2 -1.599000e+01  0.000000e+00  0.000000E+00  0.000000E+00
+B053F15-18    3 -4.171000e+02  0.000000e+00  0.000000E+00  0.000000E+00
+B053F15-18    4 -1.009000e+02  4.019000e+02  0.000000E+00  0.000000E+00
+B053F15-18    5 -1.009000e+02 -4.019000e+02  0.000000E+00  0.000000E+00
+B053F15-18    6 -7.454000e+03 -7.142000e+03  0.000000E+00  0.000000E+00
+B053F15-18    7 -7.454000e+03  7.142000e+03  0.000000E+00  0.000000E+00
+B053F15-18    8 -1.872390e+02  0.000000e+00  0.000000E+00  0.000000E+00
+#		
+#                  +---------------------------------------+  
+#                  |       Channel Gain, OXIG     HHE      |  
+#                  +---------------------------------------+  
+#		
+B058F03     Stage sequence number:                 1
+B058F04     Gain:                                  1.500000e+03
+B058F05     Frequency of gain:                     1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#		
+#               +-------------------------------------------+                 
+#               |   Response (Coefficients), OXIG HHE       |                 
+#               +-------------------------------------------+                 
+#		
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 2
+B054F05     Response in units lookup:              V - Volts
+B054F06     Response out units lookup:             COUNTS - Digital Counts
+B054F07     Number of numerators:                  1
+B054F10     Number of denominators:                0
+#		Numerator coefficients:
+#		  i, coefficient,  error
+B054F08-09    0  1.000000e+00  0.000000E+00
+#		
+#               +------------------------------------------+                       
+#               |         Decimation, OXIG   HHE           |                       
+#               +------------------------------------------+                       
+#		
+B057F03     Stage sequence number:                 2
+B057F04     Input sample rate:                     4.000000e+01
+B057F05     Decimation factor:                     1
+B057F06     Decimation offset:                     0
+B057F07     Estimated delay (seconds):             0.00000E+00
+B057F08     Correction applied (seconds):          0.00000E+00
+#		
+#               +---------------------------------------+                  
+#               |       Channel Gain, OXIG     HHE      |                  
+#               +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 2
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHE      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 2
+B058F04     Sensitivity:                           1.500000e+03
+B058F05     Frequency of sensitivity:              1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#
+#####
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHE      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 2
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#		
+#               +-------------------------------------------+                 
+#               |   Response (Coefficients), OXIG     HHE   |                 
+#               +-------------------------------------------+                 
+#		
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 3
+B054F05     Response in units lookup:              COUNTS - Digital Counts
+B054F06     Response out units lookup:             COUNTS - Digital Counts
+B054F07     Number of numerators:                  1
+B054F10     Number of denominators:                0
+#		Numerator coefficients:
+#		  i, coefficient,  error
+B054F08-09    0  1.000000e+00  0.000000E+00
+#		
+#                      +------------------------------+                       
+#                      |   Decimation, OXIG     HHE   |                       
+#                      +------------------------------+                       
+#		
+B057F03     Stage sequence number:                 3
+B057F04     Input sample rate:                     1.000000e+02
+B057F05     Decimation factor:                     1
+B057F06     Decimation offset:                     0
+B057F07     Estimated delay (seconds):             0.000000E+00
+B057F08     Correction applied (seconds):          0.000000E+00
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHE      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 3
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#		
+#               +-----------------------------------------+                 
+#               |   Response (Coefficients), OXIG   HHE   |                 
+#               +-----------------------------------------+                 
+#		
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 4
+B054F05     Response in units lookup:              COUNTS - Digital Counts
+B054F06     Response out units lookup:             COUNTS - Digital Counts
+B054F07     Number of numerators:                  71
+B054F10     Number of denominators:                0
+#		Numerator coefficients:
+#		  i, coefficient,  error
+B054F08-09    0  4.933050e-17  0.000000E+00
+B054F08-09    1  2.192690e-10  0.000000E+00
+B054F08-09    2  5.525500e-08  0.000000E+00
+B054F08-09    3  1.525150e-06  0.000000E+00
+B054F08-09    4  7.716680e-05  0.000000E+00
+B054F08-09    5  4.400980e-03  0.000000E+00
+B054F08-09    6  6.230350e-02  0.000000E+00
+B054F08-09    7  3.131620e-01  0.000000E+00
+B054F08-09    8  6.094440e-01  0.000000E+00
+B054F08-09    9  2.617540e-01  0.000000E+00
+B054F08-09   10 -3.433990e-01  0.000000E+00
+B054F08-09   11  9.604860e-03  0.000000E+00
+B054F08-09   12  2.135950e-01  0.000000E+00
+B054F08-09   13 -2.111890e-01  0.000000E+00
+B054F08-09   14  8.085180e-02  0.000000E+00
+B054F08-09   15  5.700940e-02  0.000000E+00
+B054F08-09   16 -1.317880e-01  0.000000E+00
+B054F08-09   17  1.339980e-01  0.000000E+00
+B054F08-09   18 -8.297400e-02  0.000000E+00
+B054F08-09   19  1.366020e-02  0.000000E+00
+B054F08-09   20  4.432000e-02  0.000000E+00
+B054F08-09   21 -7.482760e-02  0.000000E+00
+B054F08-09   22  7.552320e-02  0.000000E+00
+B054F08-09   23 -5.403810e-02  0.000000E+00
+B054F08-09   24  2.248540e-02  0.000000E+00
+B054F08-09   25  7.330850e-03  0.000000E+00
+B054F08-09   26 -2.762920e-02  0.000000E+00
+B054F08-09   27  3.501960e-02  0.000000E+00
+B054F08-09   28 -3.186960e-02  0.000000E+00
+B054F08-09   29  2.051580e-02  0.000000E+00
+B054F08-09   30 -8.809710e-03  0.000000E+00
+B054F08-09   31 -2.019740e-03  0.000000E+00
+B054F08-09   32  9.051700e-03  0.000000E+00
+B054F08-09   33 -1.087750e-02  0.000000E+00
+B054F08-09   34  9.144060e-03  0.000000E+00
+B054F08-09   35 -5.900730e-03  0.000000E+00
+B054F08-09   36  2.668290e-03  0.000000E+00
+B054F08-09   37 -2.617510e-04  0.000000E+00
+B054F08-09   38 -1.098330e-03  0.000000E+00
+B054F08-09   39  1.557740e-03  0.000000E+00
+B054F08-09   40 -1.427850e-03  0.000000E+00
+B054F08-09   41  1.025240e-03  0.000000E+00
+B054F08-09   42 -5.846490e-04  0.000000E+00
+B054F08-09   43  2.366980e-04  0.000000E+00
+B054F08-09   44 -2.269850e-05  0.000000E+00
+B054F08-09   45 -7.309620e-05  0.000000E+00
+B054F08-09   46  9.079500e-05  0.000000E+00
+B054F08-09   47 -7.079050e-05  0.000000E+00
+B054F08-09   48  4.207800e-05  0.000000E+00
+B054F08-09   49 -1.904760e-05  0.000000E+00
+B054F08-09   50  6.083500e-06  0.000000E+00
+B054F08-09   51 -5.396090e-07  0.000000E+00
+B054F08-09   52 -4.787900e-07  0.000000E+00
+B054F08-09   53  2.878400e-08  0.000000E+00
+B054F08-09   54  1.696690e-07  0.000000E+00
+B054F08-09   55 -1.385190e-07  0.000000E+00
+B054F08-09   56  6.271050e-08  0.000000E+00
+B054F08-09   57  6.820380e-11  0.000000E+00
+B054F08-09   58 -8.000170e-09  0.000000E+00
+B054F08-09   59 -4.533710e-09  0.000000E+00
+B054F08-09   60 -1.191630e-09  0.000000E+00
+B054F08-09   61  4.503040e-09  0.000000E+00
+B054F08-09   62  7.523680e-10  0.000000E+00
+B054F08-09   63 -7.894450e-10  0.000000E+00
+B054F08-09   64 -4.782500e-10  0.000000E+00
+B054F08-09   65 -4.022190e-12  0.000000E+00
+B054F08-09   66  5.499240e-11  0.000000E+00
+B054F08-09   67  2.176370e-11  0.000000E+00
+B054F08-09   68 -9.904390e-13  0.000000E+00
+B054F08-09   69 -1.702360e-13  0.000000E+00
+B054F08-09   70 -9.950700e-15  0.000000E+00
+#		
+#                      +------------------------------+                       
+#                      |   Decimation, OXIG     HHE   |                       
+#                      +------------------------------+                       
+#		
+B057F03     Stage sequence number:                 4
+B057F04     Input sample rate:                     1.000000e+02
+B057F05     Decimation factor:                     1
+B057F06     Decimation offset:                     0
+B057F07     Estimated delay (seconds):             4.687000E-02
+B057F08     Correction applied (seconds):          4.687000E-02
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHE      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 4
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHE      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 4
+B058F04     Sensitivity:                           4.194300e+05
+B058F05     Frequency of sensitivity:              5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#				
+#                  +---------------------------------------+
+#                  | Channel Sensitivity/Gain, OXIG  HHE   |
+#                  +---------------------------------------+
+#
+#
+B058F03     Stage sequence number:                 0
+B058F04     Sensitivity:                           6.291450e+08
+B058F05     Frequency of sensitivity:              5.000000e-02
+B058F06     Number of calibrations:                0
+#
+###################################################################################
+#STS2-gen1 Q330 100Hz Gain1
+#
+#
+#		======== CHANNEL RESPONSE DATA ========
+B050F03     Station:     OXIG  
+B050F16     Network:     IG
+B052F03     Location:    ??
+B052F04     Channel:     HHN
+B052F22     Start date:  1994,061,00:00:00
+B052F23     End date:    No Ending Time
+#		=======================================
+#               +--------------------------------------------+
+#               |   Response (Poles & Zeros), OXIG     HHN   |
+#               +--------------------------------------------+
+#
+B053F03     Transfer function type:                A [Laplace Transform (Rad/sec)]
+B053F04     Stage sequence number:                 1
+B053F05     Response in units lookup:              M/S - Velocity in Meters Per Second
+B053F06     Response out units lookup:             V - Volts
+B053F07     A0 normalization factor:               5.706240E+12
+B053F08     Normalization frequency:               1.000000E+00
+B053F09     Number of zeroes:                      5
+B053F14     Number of poles:                       9
+#		Complex zeroes:
+#		  i  real          imag          real_error    imag_error
+B053F10-13    0  0.000000e+00  0.000000e+00  0.000000E+00  0.000000E+00
+B053F10-13    1  0.000000e+00  0.000000e+00  0.000000E+00  0.000000E+00
+B053F10-13    2 -1.515000e+01  0.000000e+00  0.000000E+00  0.000000E+00
+B053F10-13    3 -3.186000e+02  4.012000e+02  0.000000E+00  0.000000E+00
+B053F10-13    4 -3.186000e+02 -4.012000e+02  0.000000E+00  0.000000E+00
+#		Complex poles:
+#		  i  real          imag          real_error    imag_error
+B053F15-18    0 -3.700000e-02 -3.700000e-02  0.000000E+00  0.000000E+00
+B053F15-18    1 -3.700000e-02  3.700000e-02  0.000000E+00  0.000000E+00
+B053F15-18    2 -1.599000e+01  0.000000e+00  0.000000E+00  0.000000E+00
+B053F15-18    3 -4.171000e+02  0.000000e+00  0.000000E+00  0.000000E+00
+B053F15-18    4 -1.009000e+02  4.019000e+02  0.000000E+00  0.000000E+00
+B053F15-18    5 -1.009000e+02 -4.019000e+02  0.000000E+00  0.000000E+00
+B053F15-18    6 -7.454000e+03 -7.142000e+03  0.000000E+00  0.000000E+00
+B053F15-18    7 -7.454000e+03  7.142000e+03  0.000000E+00  0.000000E+00
+B053F15-18    8 -1.872390e+02  0.000000e+00  0.000000E+00  0.000000E+00
+#		
+#                  +---------------------------------------+  
+#                  |       Channel Gain, OXIG     HHN      |  
+#                  +---------------------------------------+  
+#		
+B058F03     Stage sequence number:                 1
+B058F04     Gain:                                  1.500000e+03
+B058F05     Frequency of gain:                     1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#		
+#               +-------------------------------------------+                 
+#               |   Response (Coefficients), OXIG HHN       |                 
+#               +-------------------------------------------+                 
+#		
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 2
+B054F05     Response in units lookup:              V - Volts
+B054F06     Response out units lookup:             COUNTS - Digital Counts
+B054F07     Number of numerators:                  1
+B054F10     Number of denominators:                0
+#		Numerator coefficients:
+#		  i, coefficient,  error
+B054F08-09    0  1.000000e+00  0.000000E+00
+#		
+#               +------------------------------------------+                       
+#               |         Decimation, OXIG   HHN           |                       
+#               +------------------------------------------+                       
+#		
+B057F03     Stage sequence number:                 2
+B057F04     Input sample rate:                     4.000000e+01
+B057F05     Decimation factor:                     1
+B057F06     Decimation offset:                     0
+B057F07     Estimated delay (seconds):             0.00000E+00
+B057F08     Correction applied (seconds):          0.00000E+00
+#		
+#               +---------------------------------------+                  
+#               |       Channel Gain, OXIG     HHN      |                  
+#               +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 2
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHN      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 2
+B058F04     Sensitivity:                           1.500000e+03
+B058F05     Frequency of sensitivity:              1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#
+#####
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHN      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 2
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#		
+#               +-------------------------------------------+                 
+#               |   Response (Coefficients), OXIG     HHN   |                 
+#               +-------------------------------------------+                 
+#		
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 3
+B054F05     Response in units lookup:              COUNTS - Digital Counts
+B054F06     Response out units lookup:             COUNTS - Digital Counts
+B054F07     Number of numerators:                  1
+B054F10     Number of denominators:                0
+#		Numerator coefficients:
+#		  i, coefficient,  error
+B054F08-09    0  1.000000e+00  0.000000E+00
+#		
+#                      +------------------------------+                       
+#                      |   Decimation, OXIG     HHN   |                       
+#                      +------------------------------+                       
+#		
+B057F03     Stage sequence number:                 3
+B057F04     Input sample rate:                     1.000000e+02
+B057F05     Decimation factor:                     1
+B057F06     Decimation offset:                     0
+B057F07     Estimated delay (seconds):             0.000000E+00
+B057F08     Correction applied (seconds):          0.000000E+00
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHN      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 3
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#		
+#               +-----------------------------------------+                 
+#               |   Response (Coefficients), OXIG   HHN   |                 
+#               +-----------------------------------------+                 
+#		
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 4
+B054F05     Response in units lookup:              COUNTS - Digital Counts
+B054F06     Response out units lookup:             COUNTS - Digital Counts
+B054F07     Number of numerators:                  71
+B054F10     Number of denominators:                0
+#		Numerator coefficients:
+#		  i, coefficient,  error
+B054F08-09    0  4.933050e-17  0.000000E+00
+B054F08-09    1  2.192690e-10  0.000000E+00
+B054F08-09    2  5.525500e-08  0.000000E+00
+B054F08-09    3  1.525150e-06  0.000000E+00
+B054F08-09    4  7.716680e-05  0.000000E+00
+B054F08-09    5  4.400980e-03  0.000000E+00
+B054F08-09    6  6.230350e-02  0.000000E+00
+B054F08-09    7  3.131620e-01  0.000000E+00
+B054F08-09    8  6.094440e-01  0.000000E+00
+B054F08-09    9  2.617540e-01  0.000000E+00
+B054F08-09   10 -3.433990e-01  0.000000E+00
+B054F08-09   11  9.604860e-03  0.000000E+00
+B054F08-09   12  2.135950e-01  0.000000E+00
+B054F08-09   13 -2.111890e-01  0.000000E+00
+B054F08-09   14  8.085180e-02  0.000000E+00
+B054F08-09   15  5.700940e-02  0.000000E+00
+B054F08-09   16 -1.317880e-01  0.000000E+00
+B054F08-09   17  1.339980e-01  0.000000E+00
+B054F08-09   18 -8.297400e-02  0.000000E+00
+B054F08-09   19  1.366020e-02  0.000000E+00
+B054F08-09   20  4.432000e-02  0.000000E+00
+B054F08-09   21 -7.482760e-02  0.000000E+00
+B054F08-09   22  7.552320e-02  0.000000E+00
+B054F08-09   23 -5.403810e-02  0.000000E+00
+B054F08-09   24  2.248540e-02  0.000000E+00
+B054F08-09   25  7.330850e-03  0.000000E+00
+B054F08-09   26 -2.762920e-02  0.000000E+00
+B054F08-09   27  3.501960e-02  0.000000E+00
+B054F08-09   28 -3.186960e-02  0.000000E+00
+B054F08-09   29  2.051580e-02  0.000000E+00
+B054F08-09   30 -8.809710e-03  0.000000E+00
+B054F08-09   31 -2.019740e-03  0.000000E+00
+B054F08-09   32  9.051700e-03  0.000000E+00
+B054F08-09   33 -1.087750e-02  0.000000E+00
+B054F08-09   34  9.144060e-03  0.000000E+00
+B054F08-09   35 -5.900730e-03  0.000000E+00
+B054F08-09   36  2.668290e-03  0.000000E+00
+B054F08-09   37 -2.617510e-04  0.000000E+00
+B054F08-09   38 -1.098330e-03  0.000000E+00
+B054F08-09   39  1.557740e-03  0.000000E+00
+B054F08-09   40 -1.427850e-03  0.000000E+00
+B054F08-09   41  1.025240e-03  0.000000E+00
+B054F08-09   42 -5.846490e-04  0.000000E+00
+B054F08-09   43  2.366980e-04  0.000000E+00
+B054F08-09   44 -2.269850e-05  0.000000E+00
+B054F08-09   45 -7.309620e-05  0.000000E+00
+B054F08-09   46  9.079500e-05  0.000000E+00
+B054F08-09   47 -7.079050e-05  0.000000E+00
+B054F08-09   48  4.207800e-05  0.000000E+00
+B054F08-09   49 -1.904760e-05  0.000000E+00
+B054F08-09   50  6.083500e-06  0.000000E+00
+B054F08-09   51 -5.396090e-07  0.000000E+00
+B054F08-09   52 -4.787900e-07  0.000000E+00
+B054F08-09   53  2.878400e-08  0.000000E+00
+B054F08-09   54  1.696690e-07  0.000000E+00
+B054F08-09   55 -1.385190e-07  0.000000E+00
+B054F08-09   56  6.271050e-08  0.000000E+00
+B054F08-09   57  6.820380e-11  0.000000E+00
+B054F08-09   58 -8.000170e-09  0.000000E+00
+B054F08-09   59 -4.533710e-09  0.000000E+00
+B054F08-09   60 -1.191630e-09  0.000000E+00
+B054F08-09   61  4.503040e-09  0.000000E+00
+B054F08-09   62  7.523680e-10  0.000000E+00
+B054F08-09   63 -7.894450e-10  0.000000E+00
+B054F08-09   64 -4.782500e-10  0.000000E+00
+B054F08-09   65 -4.022190e-12  0.000000E+00
+B054F08-09   66  5.499240e-11  0.000000E+00
+B054F08-09   67  2.176370e-11  0.000000E+00
+B054F08-09   68 -9.904390e-13  0.000000E+00
+B054F08-09   69 -1.702360e-13  0.000000E+00
+B054F08-09   70 -9.950700e-15  0.000000E+00
+#		
+#                      +------------------------------+                       
+#                      |   Decimation, OXIG     HHN   |                       
+#                      +------------------------------+                       
+#		
+B057F03     Stage sequence number:                 4
+B057F04     Input sample rate:                     1.000000e+02
+B057F05     Decimation factor:                     1
+B057F06     Decimation offset:                     0
+B057F07     Estimated delay (seconds):             4.687000E-02
+B057F08     Correction applied (seconds):          4.687000E-02
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHN      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 4
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHN      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 4
+B058F04     Sensitivity:                           4.194300e+05
+B058F05     Frequency of sensitivity:              5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#				
+#                  +---------------------------------------+
+#                  | Channel Sensitivity/Gain, OXIG  HHN   |
+#                  +---------------------------------------+
+#
+#
+B058F03     Stage sequence number:                 0
+B058F04     Sensitivity:                           6.291450e+08
+B058F05     Frequency of sensitivity:              5.000000e-02
+B058F06     Number of calibrations:                0
+#
+###################################################################################
+#STS2-gen1 Q330 100Hz Gain1
+#
+#
+#		======== CHANNEL RESPONSE DATA ========
+B050F03     Station:     OXIG  
+B050F16     Network:     IG
+B052F03     Location:    ??
+B052F04     Channel:     HHZ
+B052F22     Start date:  1994,061,00:00:00
+B052F23     End date:    No Ending Time
+#		=======================================
+#               +--------------------------------------------+
+#               |   Response (Poles & Zeros), OXIG     HHZ   |
+#               +--------------------------------------------+
+#
+B053F03     Transfer function type:                A [Laplace Transform (Rad/sec)]
+B053F04     Stage sequence number:                 1
+B053F05     Response in units lookup:              M/S - Velocity in Meters Per Second
+B053F06     Response out units lookup:             V - Volts
+B053F07     A0 normalization factor:               5.706240E+12
+B053F08     Normalization frequency:               1.000000E+00
+B053F09     Number of zeroes:                      5
+B053F14     Number of poles:                       9
+#		Complex zeroes:
+#		  i  real          imag          real_error    imag_error
+B053F10-13    0  0.000000e+00  0.000000e+00  0.000000E+00  0.000000E+00
+B053F10-13    1  0.000000e+00  0.000000e+00  0.000000E+00  0.000000E+00
+B053F10-13    2 -1.515000e+01  0.000000e+00  0.000000E+00  0.000000E+00
+B053F10-13    3 -3.186000e+02  4.012000e+02  0.000000E+00  0.000000E+00
+B053F10-13    4 -3.186000e+02 -4.012000e+02  0.000000E+00  0.000000E+00
+#		Complex poles:
+#		  i  real          imag          real_error    imag_error
+B053F15-18    0 -3.700000e-02 -3.700000e-02  0.000000E+00  0.000000E+00
+B053F15-18    1 -3.700000e-02  3.700000e-02  0.000000E+00  0.000000E+00
+B053F15-18    2 -1.599000e+01  0.000000e+00  0.000000E+00  0.000000E+00
+B053F15-18    3 -4.171000e+02  0.000000e+00  0.000000E+00  0.000000E+00
+B053F15-18    4 -1.009000e+02  4.019000e+02  0.000000E+00  0.000000E+00
+B053F15-18    5 -1.009000e+02 -4.019000e+02  0.000000E+00  0.000000E+00
+B053F15-18    6 -7.454000e+03 -7.142000e+03  0.000000E+00  0.000000E+00
+B053F15-18    7 -7.454000e+03  7.142000e+03  0.000000E+00  0.000000E+00
+B053F15-18    8 -1.872390e+02  0.000000e+00  0.000000E+00  0.000000E+00
+#		
+#                  +---------------------------------------+  
+#                  |       Channel Gain, OXIG     HHZ      |  
+#                  +---------------------------------------+  
+#		
+B058F03     Stage sequence number:                 1
+B058F04     Gain:                                  1.500000e+03
+B058F05     Frequency of gain:                     1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#		
+#               +-------------------------------------------+                 
+#               |   Response (Coefficients), OXIG HHZ       |                 
+#               +-------------------------------------------+                 
+#		
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 2
+B054F05     Response in units lookup:              V - Volts
+B054F06     Response out units lookup:             COUNTS - Digital Counts
+B054F07     Number of numerators:                  1
+B054F10     Number of denominators:                0
+#		Numerator coefficients:
+#		  i, coefficient,  error
+B054F08-09    0  1.000000e+00  0.000000E+00
+#		
+#               +------------------------------------------+                       
+#               |         Decimation, OXIG   HHZ           |                       
+#               +------------------------------------------+                       
+#		
+B057F03     Stage sequence number:                 2
+B057F04     Input sample rate:                     4.000000e+01
+B057F05     Decimation factor:                     1
+B057F06     Decimation offset:                     0
+B057F07     Estimated delay (seconds):             0.00000E+00
+B057F08     Correction applied (seconds):          0.00000E+00
+#		
+#               +---------------------------------------+                  
+#               |       Channel Gain, OXIG     HHZ      |                  
+#               +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 2
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHZ      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 2
+B058F04     Sensitivity:                           1.500000e+03
+B058F05     Frequency of sensitivity:              1.000000e+00 HZ
+B058F06     Number of calibrations:                0
+#
+#####
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHZ      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 2
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#		
+#               +-------------------------------------------+                 
+#               |   Response (Coefficients), OXIG     HHZ   |                 
+#               +-------------------------------------------+                 
+#		
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 3
+B054F05     Response in units lookup:              COUNTS - Digital Counts
+B054F06     Response out units lookup:             COUNTS - Digital Counts
+B054F07     Number of numerators:                  1
+B054F10     Number of denominators:                0
+#		Numerator coefficients:
+#		  i, coefficient,  error
+B054F08-09    0  1.000000e+00  0.000000E+00
+#		
+#                      +------------------------------+                       
+#                      |   Decimation, OXIG     HHZ   |                       
+#                      +------------------------------+                       
+#		
+B057F03     Stage sequence number:                 3
+B057F04     Input sample rate:                     1.000000e+02
+B057F05     Decimation factor:                     1
+B057F06     Decimation offset:                     0
+B057F07     Estimated delay (seconds):             0.000000E+00
+B057F08     Correction applied (seconds):          0.000000E+00
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHZ      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 3
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#		
+#               +-----------------------------------------+                 
+#               |   Response (Coefficients), OXIG   HHZ   |                 
+#               +-----------------------------------------+                 
+#		
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 4
+B054F05     Response in units lookup:              COUNTS - Digital Counts
+B054F06     Response out units lookup:             COUNTS - Digital Counts
+B054F07     Number of numerators:                  71
+B054F10     Number of denominators:                0
+#		Numerator coefficients:
+#		  i, coefficient,  error
+B054F08-09    0  4.933050e-17  0.000000E+00
+B054F08-09    1  2.192690e-10  0.000000E+00
+B054F08-09    2  5.525500e-08  0.000000E+00
+B054F08-09    3  1.525150e-06  0.000000E+00
+B054F08-09    4  7.716680e-05  0.000000E+00
+B054F08-09    5  4.400980e-03  0.000000E+00
+B054F08-09    6  6.230350e-02  0.000000E+00
+B054F08-09    7  3.131620e-01  0.000000E+00
+B054F08-09    8  6.094440e-01  0.000000E+00
+B054F08-09    9  2.617540e-01  0.000000E+00
+B054F08-09   10 -3.433990e-01  0.000000E+00
+B054F08-09   11  9.604860e-03  0.000000E+00
+B054F08-09   12  2.135950e-01  0.000000E+00
+B054F08-09   13 -2.111890e-01  0.000000E+00
+B054F08-09   14  8.085180e-02  0.000000E+00
+B054F08-09   15  5.700940e-02  0.000000E+00
+B054F08-09   16 -1.317880e-01  0.000000E+00
+B054F08-09   17  1.339980e-01  0.000000E+00
+B054F08-09   18 -8.297400e-02  0.000000E+00
+B054F08-09   19  1.366020e-02  0.000000E+00
+B054F08-09   20  4.432000e-02  0.000000E+00
+B054F08-09   21 -7.482760e-02  0.000000E+00
+B054F08-09   22  7.552320e-02  0.000000E+00
+B054F08-09   23 -5.403810e-02  0.000000E+00
+B054F08-09   24  2.248540e-02  0.000000E+00
+B054F08-09   25  7.330850e-03  0.000000E+00
+B054F08-09   26 -2.762920e-02  0.000000E+00
+B054F08-09   27  3.501960e-02  0.000000E+00
+B054F08-09   28 -3.186960e-02  0.000000E+00
+B054F08-09   29  2.051580e-02  0.000000E+00
+B054F08-09   30 -8.809710e-03  0.000000E+00
+B054F08-09   31 -2.019740e-03  0.000000E+00
+B054F08-09   32  9.051700e-03  0.000000E+00
+B054F08-09   33 -1.087750e-02  0.000000E+00
+B054F08-09   34  9.144060e-03  0.000000E+00
+B054F08-09   35 -5.900730e-03  0.000000E+00
+B054F08-09   36  2.668290e-03  0.000000E+00
+B054F08-09   37 -2.617510e-04  0.000000E+00
+B054F08-09   38 -1.098330e-03  0.000000E+00
+B054F08-09   39  1.557740e-03  0.000000E+00
+B054F08-09   40 -1.427850e-03  0.000000E+00
+B054F08-09   41  1.025240e-03  0.000000E+00
+B054F08-09   42 -5.846490e-04  0.000000E+00
+B054F08-09   43  2.366980e-04  0.000000E+00
+B054F08-09   44 -2.269850e-05  0.000000E+00
+B054F08-09   45 -7.309620e-05  0.000000E+00
+B054F08-09   46  9.079500e-05  0.000000E+00
+B054F08-09   47 -7.079050e-05  0.000000E+00
+B054F08-09   48  4.207800e-05  0.000000E+00
+B054F08-09   49 -1.904760e-05  0.000000E+00
+B054F08-09   50  6.083500e-06  0.000000E+00
+B054F08-09   51 -5.396090e-07  0.000000E+00
+B054F08-09   52 -4.787900e-07  0.000000E+00
+B054F08-09   53  2.878400e-08  0.000000E+00
+B054F08-09   54  1.696690e-07  0.000000E+00
+B054F08-09   55 -1.385190e-07  0.000000E+00
+B054F08-09   56  6.271050e-08  0.000000E+00
+B054F08-09   57  6.820380e-11  0.000000E+00
+B054F08-09   58 -8.000170e-09  0.000000E+00
+B054F08-09   59 -4.533710e-09  0.000000E+00
+B054F08-09   60 -1.191630e-09  0.000000E+00
+B054F08-09   61  4.503040e-09  0.000000E+00
+B054F08-09   62  7.523680e-10  0.000000E+00
+B054F08-09   63 -7.894450e-10  0.000000E+00
+B054F08-09   64 -4.782500e-10  0.000000E+00
+B054F08-09   65 -4.022190e-12  0.000000E+00
+B054F08-09   66  5.499240e-11  0.000000E+00
+B054F08-09   67  2.176370e-11  0.000000E+00
+B054F08-09   68 -9.904390e-13  0.000000E+00
+B054F08-09   69 -1.702360e-13  0.000000E+00
+B054F08-09   70 -9.950700e-15  0.000000E+00
+#		
+#                      +------------------------------+                       
+#                      |   Decimation, OXIG     HHZ   |                       
+#                      +------------------------------+                       
+#		
+B057F03     Stage sequence number:                 4
+B057F04     Input sample rate:                     1.000000e+02
+B057F05     Decimation factor:                     1
+B057F06     Decimation offset:                     0
+B057F07     Estimated delay (seconds):             4.687000E-02
+B057F08     Correction applied (seconds):          4.687000E-02
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHZ      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 4
+B058F04     Gain:                                  1.000000e+00
+B058F05     Frequency of gain:                     5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#		
+#                  +---------------------------------------+                  
+#                  |       Channel Gain, OXIG     HHZ      |                  
+#                  +---------------------------------------+                  
+#		
+B058F03     Stage sequence number:                 4
+B058F04     Sensitivity:                           4.194300e+05
+B058F05     Frequency of sensitivity:              5.000000e-02 HZ
+B058F06     Number of calibrations:                0
+#				
+#                  +---------------------------------------+
+#                  | Channel Sensitivity/Gain, OXIG  HHZ   |
+#                  +---------------------------------------+
+#
+#
+B058F03     Stage sequence number:                 0
+B058F04     Sensitivity:                           6.291450e+08
+B058F05     Frequency of sensitivity:              5.000000e-02
+B058F06     Number of calibrations:                0
