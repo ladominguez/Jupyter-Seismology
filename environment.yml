@@ -1,4 +1,4 @@
-nome: Jupyter-seismology
+name: Jupyter-seismology
 channels:
 - conda-forge
 dependencies:
