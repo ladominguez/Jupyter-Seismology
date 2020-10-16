@@ -6,3 +6,4 @@ dependencies:
 - obspy >=1.2.0
 - cartopy >=0.18.0
 - pandas >=1.1.2
+- geopy >= 2.0.0
