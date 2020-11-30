@@ -4,6 +4,8 @@ channels:
 dependencies:
 - python =3
 - obspy >=1.2.0
-- cartopy >=0.18.0
 - pandas >=1.1.2
 - geopy >= 2.0.0
+- shapely >= 1.7.1
+- cartopy >=0.18.0
+
