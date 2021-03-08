@@ -31,7 +31,7 @@ program arreglos
          write(*, fmt="(A, i4, A, i4, A, f5.2, A)", advance="no") "i: ", i, " j: ", j, " = ", matriz(i,j), ", "
          ! Print *, i, "-" , j, "-",  matriz(i,j)   Mas facil de usar
       end do
-         write(*,*) ""   ! Nueva líneas
+         write(*,*) ""   ! Nuevas líneas
    end do
 
    ! Asigna valores directamente
